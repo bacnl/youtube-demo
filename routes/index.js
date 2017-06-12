@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   var params = {
     part: 'snippet',
     q: '',
-    maxResults: 5,
+    maxResults: 50,
     type : 'video'
   }
   var urls = [];
