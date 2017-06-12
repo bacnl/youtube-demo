@@ -5,8 +5,7 @@ block content
     div.form-group
       label(for='name') Search : 
       input#name.form-control(type='text', placeholder='Enter keyword' name='keyword')    
-    button.btn.btn-primary(type='submit') Search
-  #{urls}
+    button.btn.btn-primary(type='submit') Search  
   for id in urls
     div.youtube
       iframe(width="260" height="175" src="https://www.youtube.com/embed/#{id}" frameborder="0" allowfullscreen)
